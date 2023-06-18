@@ -73,6 +73,7 @@ type SlackBlock = SlackBlockSection | SlackBlockInput;
 
 type FoodOpinionModalState = {
 	values: {
+		opinion_spice_level_block: any;
 		opinion_block: {
 			opinion: {
 				type: 'plain_text_input';
@@ -80,6 +81,7 @@ type FoodOpinionModalState = {
 			};
 		};
 		spice_level_block: {
+			opinion_spice_level: any;
 			spice_level: {
 				type: 'static_select';
 				selected_option: {
