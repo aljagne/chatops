@@ -26,7 +26,7 @@ export async function getNewItems(): Promise<NewItem[]> {
 			filter: {
 				property: 'Status',
 				status: {
-					equals: 'new',
+					equals: 'Not started	',
 				},
 			},
 			page_size: 100,
